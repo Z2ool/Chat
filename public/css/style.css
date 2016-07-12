@@ -1,0 +1,131 @@
+html{
+    height: 100% !important;
+}
+body {
+    background: #3d4a53;
+    height: 100%;
+    margin: 0;
+    min-height: 100%;
+    overflow: hidden;
+}
+div.container-fluid {
+    height: 100%;
+}
+div#container{
+    display: block;
+    overflow: auto;
+
+    /*border: solid 1px black;*/
+}
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+form.loginForm {
+    display: block;
+    height: 150px;
+    width: 300px;
+    background: white;
+    align-self: center;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+form input[type=text]{
+    border-left: 2px solid #35aa47 !important;
+}
+.green.btn {
+    background-color: #35aa47;
+    color: white;
+}
+
+div.chat {
+    align-items: stretch;
+    box-sizing: border-box;
+    display: flex;
+    height: 100%;
+    justify-content: flex-end;
+}
+div.mess-chat{
+    box-sizing: border-box;
+    display: flex;
+    flex: 1 1 0;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+div.mess{
+    background-color: white;
+    flex-grow: 1;
+    flex-shrink: 1;
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+div.message p{
+    margin-left: 35px;
+}
+div.user-box {
+    bottom: 0;
+    box-sizing: border-box;
+    color: #333;
+    display: flex;
+    flex-shrink: 0;
+    /*order: 2;*/
+    position: relative;
+    /*right: 0;*/
+    text-align: left;
+    top: 0;
+}
+div.user{
+    background: white;
+    width: 100%;
+    padding: 10px;
+}
+
+.listBox{
+    background-color: white;
+    flex-grow: 1;
+    flex-shrink: 1;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    overflow: auto;
+    padding: 10px;
+}
+div.sender {
+    width: 100%;
+    position: relative;
+}
+form.chatForm{
+    margin: 0 0 0 0;
+}
+div.setting {
+    background: white;
+    width: 50px;
+    position: absolute;
+    height: 50px;
+    right: 0;
+    top: 0;
+}
+div.use{
+    line-height: 30px;
+}
+div.logo{
+    border-radius: 30px;
+    width: 30px;
+    height: 30px;
+    background: #35aa47;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    font-size: 19px;
+    float: left;
+    margin-right: 5px;
+}
+div.time{
+    color: #AAA;
+    float: right;
+}

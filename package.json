@@ -1,0 +1,41 @@
+{
+  "name": "Chat",
+  "version": "1.0.0",
+  "description": "Real-time apps made cross-browser & easy with a WebSocket-like API",
+  "homepage": "http://www.shopars.cz",
+  "author": {
+    "name": "Petr Klezla",
+    "email": "klezlap@seznam.cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Z2ool/Chat.git"
+  },
+  "dependencies": {
+    "babel-preset-react": "^6.11.1",
+    "babelify": "^7.3.0",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-session.io": "0.0.7",
+    "express-socket.io-session": "^1.3.1",
+    "moment": "^2.14.1",
+    "policyfile": "0.0.4",
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1",
+    "redis": "0.7.2",
+    "session.socket.io": "^0.2.1",
+    "session.socket.io-express4": "^0.1.1",
+    "socket.io": "^1.4.8",
+    "socket.io-client": "0.9.10"
+  },
+  "devDependencies": {
+    "expresso": "0.9.2",
+    "should": "*",
+    "benchmark": "0.2.2",
+    "microtime": "0.1.3-1",
+    "colors": "0.5.1"
+  },
+  "engines": {
+    "node": ">= 6.3.0"
+  }
+}
