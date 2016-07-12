@@ -29,6 +29,10 @@ var Chat = React.createClass({
             var mess = this.state.messages;
             var newMessage = mess.concat([msg]);
             this.setState({messages: newMessage});
+            var list = $('.listBox')[0];
+            list.scrollTop = list.scrollHeight;
+            //$('.listbox').animate({scrollTop: $(this)[0].scrollHeight},"fast");
+
         }.bind(this));
 
         socket.on('user', function (msg) {
