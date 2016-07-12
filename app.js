@@ -12,7 +12,7 @@ var port = process.env.PORT || 3000;
 var id = 1;
 var userId = 1;
 var users = [];
-var is = require('./routes/is');
+//var is = require('./routes/is');
 
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(bodyParser.json());

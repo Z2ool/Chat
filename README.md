@@ -1,5 +1,10 @@
 Chat & socket
 
+Instalace
+
+    git clone https://github.com/Z2ool/Chat
+
+    npm install
 
 Spuštení aplikace
 
